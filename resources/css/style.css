@@ -39,19 +39,46 @@ h1 {
 .btn:visited,
 .btn:link {
   display: inline-block;
-  background-color: red;
-  color: #fff;
   padding: 10px 30px;
   text-decoration: none;
-  border: 1px solid red;
   border-radius: 200px;
+  font-weight: 300;
 }
+
+.btn-filled:visited,
+.btn-filled:link {
+  color: #fff;
+  background-color: rgb(185, 62, 62);
+  border: 1px solid rgb(185, 62, 62);
+}
+
+.btn-filled:hover,
+.btn-filled:active {
+  color: #fff;
+  background-color: rgb(153, 35, 35);
+  border: 1px solid rgb(153, 35, 35);
+}
+
+.btn-ghost:visited,
+.btn-ghost:link {
+  color: rgb(185, 62, 62);
+  background-color: transparent;
+  border: 1px solid rgb(185, 62, 62);
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+  color: #fff;
+  background-color: rgb(153, 35, 35);
+  border: 1px solid rgb(153, 35, 35);
+}
+
 /* ---------------------------------*/
 /* Header */
 /*----------------------------------*/
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.384), rgba(0, 0, 0, 0.342)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.445)),
     url(./images/pexels-li-sun-2294361.jpg);
   background-size: cover;
   background-position: center;
@@ -77,6 +104,18 @@ header {
 .main-nav li {
   display: inline-block;
   margin-left: 20px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 2px solid rgb(185, 62, 62);
 }
 
 .logo {
