@@ -42,6 +42,7 @@ h2 {
 h1 {
   color: #fff;
   font-size: 220%;
+  margin-bottom: 20px;
 }
 
 h2 {
@@ -78,6 +79,7 @@ h2:after {
   text-decoration: none;
   border-radius: 200px;
   font-weight: 300;
+  transition: 0.2s;
 }
 
 .btn-filled:visited,
