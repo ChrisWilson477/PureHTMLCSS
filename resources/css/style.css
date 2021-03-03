@@ -27,12 +27,31 @@ html {
   margin: 0 auto;
 }
 
+/* Headings */
+h1 {
+  color: #fff;
+  font-size: 220%;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+/* Buttons */
+.btn:visited,
+.btn:link {
+  display: inline-block;
+  background-color: red;
+  color: #fff;
+  padding: 10px 30px;
+  text-decoration: none;
+  border: 1px solid red;
+  border-radius: 200px;
+}
 /* ---------------------------------*/
 /* Header */
 /*----------------------------------*/
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.808)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.384), rgba(0, 0, 0, 0.342)),
     url(./images/pexels-li-sun-2294361.jpg);
   background-size: cover;
   background-position: center;
@@ -48,6 +67,7 @@ header {
   transform: translate(-50%, -50%);
 }
 
+/* Main-Nav */
 .main-nav {
   float: right;
   list-style: none;
@@ -57,4 +77,8 @@ header {
 .main-nav li {
   display: inline-block;
   margin-left: 20px;
+}
+
+.logo {
+  margin-top: 55px;
 }
