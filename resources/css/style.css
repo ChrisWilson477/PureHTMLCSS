@@ -48,29 +48,29 @@ h1 {
 .btn-filled:visited,
 .btn-filled:link {
   color: #fff;
-  background-color: rgb(185, 62, 62);
-  border: 1px solid rgb(185, 62, 62);
+  background-color: rgb(184, 75, 75);
+  border: 1px solid rgb(184, 75, 75);
 }
 
 .btn-filled:hover,
 .btn-filled:active {
   color: #fff;
-  background-color: rgb(153, 35, 35);
-  border: 1px solid rgb(153, 35, 35);
+  background-color: rgb(184, 46, 46);
+  border: 1px solid rgb(184, 46, 46);
 }
 
 .btn-ghost:visited,
 .btn-ghost:link {
-  color: rgb(185, 62, 62);
+  color: rgb(184, 75, 75);
   background-color: transparent;
-  border: 1px solid rgb(185, 62, 62);
+  border: 1px solid rgb(184, 75, 75);
 }
 
 .btn-ghost:hover,
 .btn-ghost:active {
   color: #fff;
-  background-color: rgb(153, 35, 35);
-  border: 1px solid rgb(153, 35, 35);
+  background-color: rgb(184, 46, 46);
+  border: 1px solid rgb(184, 46, 46);
 }
 
 /* ---------------------------------*/
@@ -111,11 +111,12 @@ header {
   color: #fff;
   text-decoration: none;
   border-bottom: 2px solid transparent;
+  padding-bottom: 15px;
 }
 
 .main-nav li a:hover,
 .main-nav li a:active {
-  border-bottom: 2px solid rgb(185, 62, 62);
+  border-bottom: 2px solid rgb(184, 75, 75);
 }
 
 .logo {
