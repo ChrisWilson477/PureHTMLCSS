@@ -110,6 +110,12 @@ h2:after {
   border: 1px solid rgb(184, 46, 46);
 }
 
+/* Icons */
+.icon-big {
+  font-size: 350%;
+  display: block;
+}
+
 /* ---------------------------------*/
 /* Header */
 /*----------------------------------*/
@@ -157,5 +163,7 @@ header {
 }
 
 .logo {
-  margin-top: 55px;
+  margin-top: 5px;
+  margin-left: -100px;
+  opacity: .8;
 }
