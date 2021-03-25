@@ -215,3 +215,17 @@ header {
   transform: scale(1.03);
   opacity: 1;
 }
+
+
+/* ---------------------------------*/
+/* Onsite */
+/*----------------------------------*/
+.box img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.onsite-feature {
+  margin-bottom: 5px;
+}
