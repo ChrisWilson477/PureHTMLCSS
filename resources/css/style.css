@@ -124,6 +124,21 @@ input[type="submit"]:active {
   border: 1px solid rgb(184, 46, 46);
 }
 
+/* Links */
+a:link,
+a:visited {
+  color: rgb(184, 46, 46);
+  text-decoration: none;
+  border-bottom: 1px solid rgb(184, 46, 46);
+  padding-bottom: 1px;
+}
+
+a:hover,
+a:active {
+  color: #555;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.2s, color 0.2s;
+}
 /* Icons */
 .icon-big {
   font-size: 350%;
