@@ -19,6 +19,16 @@ html {
   overflow-x: hidden;
 }
 
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
 /* ---------------------------------*/
 /* Reusable Components */
 /*----------------------------------*/
@@ -122,7 +132,7 @@ h2:after {
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.445)),
-    url(./images/pexels-li-sun-2294361.jpg);
+    url(./images/background.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -166,4 +176,42 @@ header {
   margin-top: 5px;
   margin-left: -100px;
   opacity: .8;
+}
+
+/* ---------------------------------*/
+/* Workout Images */
+/*----------------------------------*/
+.section-workout-image {
+  padding: 0;
+}
+
+.workout-image-showcase {
+  list-style: none;
+  width: 100%;
+}
+
+.workout-image-showcase li {
+  display: block;
+  float: left;
+  width: 25%;
+}
+
+.workout-image-photo {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.workout-image-photo img {
+  opacity: 0.7;
+  width: 100%;
+  height: auto;
+  transform: scale(1.15);
+  transition: transform 0.7s opacity 0.5s;
+}
+
+.workout-image-photo img:hover {
+  transform: scale(1.03);
+  opacity: 1;
 }
