@@ -83,7 +83,8 @@ h2:after {
 
 /* Buttons */
 .btn:visited,
-.btn:link {
+.btn:link,
+input[type="submit"] {
   display: inline-block;
   padding: 10px 30px;
   text-decoration: none;
@@ -93,14 +94,17 @@ h2:after {
 }
 
 .btn-filled:visited,
-.btn-filled:link {
+.btn-filled:link,
+input[type="submit"] {
   color: #fff;
   background-color: rgb(184, 75, 75);
   border: 1px solid rgb(184, 75, 75);
 }
 
 .btn-filled:hover,
-.btn-filled:active {
+.btn-filled:active,
+input[type="submit"]:hover,
+input[type="submit"]:active {
   color: #fff;
   background-color: rgb(184, 46, 46);
   border: 1px solid rgb(184, 46, 46);
@@ -283,6 +287,29 @@ header {
   font-weight: 300;
 }
 
-.plan-price-meal {
-  font-size: 80%;
+
+/* ---------------------------------*/
+/* Contact Form */
+/*----------------------------------*/
+.contact-form {
+  width: 60%;
+  margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textArea {
+  width: 100%;
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+textArea {
+  height: 100px;
+}
+
+input[type="checkbox"] {
+  margin: 10px 5px 10px 0;
 }
