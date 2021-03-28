@@ -4,6 +4,7 @@
     width: 100%;
     padding: 0 2%;
   }
+
   .row {
     padding: 0 2%;
   }
@@ -172,5 +173,14 @@
 
   .contact-form {
     width: 100%;
+  }
+
+  .btn-app img {
+    margin-right: 0;
+  }
+
+  .social-icons{
+    float: none;
+    text-align: center;
   }
 }

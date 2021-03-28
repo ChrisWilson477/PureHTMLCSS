@@ -9,9 +9,12 @@
     <meta name='description' content='Workout subscription for staying fit at home during quarantine'>
 
     <!-- Link Tags -->
+    <link rel="stylesheet" type='text/css' href='vendors/css/animate.min.css'>
+    <link rel='stylesheet' type='text/css' href='vendors/css/normalize.css'>
     <link rel='stylesheet' type='text/css' href='vendors/css/ionicons.min.css'>
     <link rel='stylesheet' type='text/css' href='resources/css/grid.css'>
     <link rel='stylesheet' type='text/css' href='resources/css/style.css'>
+    <link rel='stylesheet' type='text/css' href='resources/css/queries.css'>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
 
@@ -28,24 +31,25 @@
       <nav>
         <div class='row'>
           <img src='./resources/css/images/LightLogo.png' alt='Company logo' class='logo'/>
-          <ul class='main-nav'>
+          <ul class='main-nav js--main-nav'>
             <li><a href='#features'>Home Workouts</a></li>
             <li> <a href='#steps'>How It Works</a></li>
             <li><a href='#onsite'>Onsite Locations</a></li>
             <li><a href='#plans'>Sign Up</a></li>
           </ul>
-        </div>
-        <div class='hero-text-box'>
-          <h1>When you need to get in shape,<br> But all the gyms are closed</h1>
-          <a class='btn btn-filled' href='#plans'>Let's Get It</a>
-          <a class='btn btn-ghost' href='#features'>Tell Me More</a>
+          <a class='mobile-nav-icon js--nav-icon'><i class='ion-navicon-round'></i></a>
         </div>
       </nav>
+        <div class='hero-text-box'>
+          <h1>When you need to get in shape,<br> But all the gyms are closed</h1>
+          <a class='btn btn-filled js--scroll-to-plans' href='#plans'>Let's Get It</a>
+          <a class='btn btn-ghost js--scroll-to-start' href='#features'>Tell Me More</a>
+        </div>
     </header>
 
     <!-- Features Section -->
-    <section class='section-features' id='features'>
-      <div class='row' id='features'>
+    <section class='section-features js--section-features' id='features'>
+      <div class='row js--wp-1' id='features'>
         <h2>Waiting for the Gym? &mdash; Work Out at Home!</h2>
         <p class='paragraph'>
           In comes SuperFlex, with all the gyms closing itermittently, we bring you the all inclusive home workout that you can do without needing weights or to go to a gym for.<br><br> You can do it right in your own home!
@@ -134,7 +138,7 @@
       </div>
       <div class='row'>
         <div class='col span-1-of-2 steps-box'>
-          <img src='resources/css/images/DarkLogo.png' alt='SuperFlex Logo' class='app-logo'>
+          <img src='resources/css/images/DarkLogo.png' alt='SuperFlex Logo' class='app-logo js--wp-2'>
         </div>
         <div class='col span-1-of-2 steps-box'>
           <div class='works-step'>
@@ -162,7 +166,7 @@
       <div class='row '>
         <h2>We are currently in these cities</h2>
       </div>
-      <div class='row'>
+      <div class='row js--wp-3'>
         <div class='col span-1-of-4 box'>
           <img src='./resources/css/images/paris.jpg' alt='Paris'>
           <h3>Paris</h3>
@@ -234,13 +238,13 @@
     </section>
 
     <!-- Plans Section -->
-    <section class='section-plans' id='plans'>
+    <section class='section-plans js--section-plans' id='plans'>
       <div class='row'>
         <h2>Start Working Out Today</h2>
       </div>
       <div class='row'>
         <div class='col span-1-of-3'>
-          <div class='plan-box'>
+          <div class='plan-box js--wp-4'>
             <div>
               <h3>Premium</h3>
               <p class='plan-price'>$150 <span>per Month</span></p>
@@ -393,5 +397,8 @@
       </div>
     </footer>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src='vendors/js/jquery.waypoints.min.js'></script>
+    <script src='resources/js/scripts.js'></script>
   </body>
 </html>

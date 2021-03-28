@@ -54,6 +54,7 @@ h1 {
   color: #fff;
   font-size: 220%;
   margin-bottom: 20px;
+  word-spacing: 4px;
 }
 
 h2 {
@@ -209,9 +210,65 @@ header {
   transition: border-bottom 2s, color 2s;
 }
 
+/* Mobile Navi */
+
+.mobile-nav-icon {
+  float: right;
+  margin-top: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+.mobile-nav-icon i {
+  font-size: 200%;
+  color: #fff;
+}
+
+/* Sticky Nav */
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.959);
+  box-shadow: 0 2px 2px #efefef;
+  z-index: 9999;
+}
+
+.sticky .main-nav {
+  margin-top: 16px;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+  color: #555;
+  padding: 14px 0;
+
+}
+
+.sticky .main-nav li a:hover,
+.sticky .main-nav li a:active {
+  border: 0;
+}
+
+.sticky .logo {
+  display: block;
+  height: 60px;
+  width: auto;
+  float:left;
+  margin: 5px 0;
+}
+
+
+
+
+
 .logo {
-  margin-top: 5px;
-  margin-left: -100px;
+  margin-top: 20px;
+  height: 100px;
+  width: auto;
+  float: left;
   opacity: .8;
 }
 
